@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <title>Lutfiyah</title>
+        <link rel="stylesheet" href="lutee.css">
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+    </head>
+    <body>
+        <section id="banner">
+           <img src="img1.png" class="logo">
+           <div class="banner-text">
+               <h1>I LOVE MY PEOPLE</h1>
+               <p>...because they love my work.</p>
+               <div class="banner-btn">
+                   <a href="contact.html"><span></span>&rarr;</a>
+               </div>
+           </div>
+        </section>
+
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="lutee.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a class="active" href="comments.html">COMMENTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="menuBtn">
+            <img src="img4.png" id="menu">
+        </div>
+
+        <section id="comments">
+            <div class="titleText">
+                <p>COMMENTS</p>
+                <h1>What Customer Says</h1>
+            </div>
+                <div class="comment-row">
+                    <div class="comment-col">
+                        <div class="user">
+                            <img src="img9.jpg">
+                            <div class="user-info">
+                                <h4>AMAZING DAMSEL <img src="img1.png"></h4>
+                                <small>@amazingdamsel</small>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur 
+                            adipisicing elit. Asperiores possimus 
+                            tenetur sunt dolores sequi magni aperiam 
+                            fugit reiciendis, voluptatem beatae 
+                            reprehenderit iure facere ipsum. 
+                            Possimus dicta dolores adipisci 
+                            expedita quasi.</p>
+                    </div>
+                    <div class="comment-col">
+                        <div class="user">
+                            <img src="img10.jpg">
+                            <div class="user-info">
+                                <h4>WONDERFUL SELF<img src="img1.png"></h4>
+                                <small>@wonderfulself</small>
+                            </div>
+                        </div>
+                        <p>orem ipsum dolor, sit amet consectetur 
+                            adipisicing elit. Asperiores possimus 
+                            tenetur sunt dolores sequi magni aperiam 
+                            fugit reiciendis, voluptatem beatae 
+                            reprehenderit iure facere ipsum.</p>
+                    </div>
+                    <div class="comment-col">
+                        <div class="user">
+                            <img src="img11.jpg">
+                            <div class="user-info">
+                                <h4>GENTLE PEARL<img src="img1.png"></h4>
+                                <small>@gentlepearl</small>
+                            </div>
+                        </div>
+                        <p>orem ipsum dolor, sit amet consectetur 
+                            adipisicing elit. Asperiores possimus 
+                            tenetur sunt dolores sequi magni aperiam 
+                            fugit reiciendis, voluptatem beatae 
+                            reprehenderit iure facere ipsum. 
+                            Possimus dicta dolores adipisci 
+                            expedita quasi.</p>
+                    </div>
+                </div>
+        </section>
+
+
+
+        <section id="footer">
+            <div class="titleText">
+                <p>CONTACT</p>
+                <h1>Try Lutfanahstyle Today</h1>
+            </div>
+            <div class="footer-row">
+                <div class="footer-left">
+                    <h1>Opening Hours</h1>
+                    <p>Monday to Thursday - 9am to 9pm</p>
+                    <p>Friday to Sunday - 10am to 7pm</p>
+                </div>
+                <div class="footer-right">
+                    <h1>Keep In Touch</h1>
+                    <p>19, Oremeji Street, Ekoro Junction, Abule-Egba, Lagos State.</p>
+                    <p>lutfanahstyle@gmail.com</p>
+                    <p>08178759909, 08131574675</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy; Lutfanah 2021</p>
+            </div>
+        </section>
+
+
+
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+
+            sideNav.style.right = "-250px";
+
+            menuBtn.onclick = function(){
+                if(sideNav.style.right == "-250px"){
+                    sideNav.style.right = "0";
+                    menu.src = "img3.png"
+                }
+                else{
+                    sideNav.style.right = "-250px";
+                    menu.src = "img4.png"
+                }
+            }
+        </script>
+</html>
